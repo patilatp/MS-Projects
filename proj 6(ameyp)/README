@@ -1,0 +1,41 @@
+Name: Amey Patil
+Clemson Email Address: ameyp@g.clemson.edu
+
+Project no: 6
+Project due date: 4th Dec Noon
+
+Project description: A Playable Game. 
+
+Keys for movement of airplane-
+A- Move Left, S- Move Downwards, D- Move Right, W- Move Upwards.
+
+hud has following information-
+keys to move the airplane.
+seconds elapsed and frames per second. 
+F1 toggles the hud show and hide. 
+When the game starts the HUD is displayed for 5 seconds and then hud gets hidden and can be seen by using F1 key.
+R key resets the game.
+Laser list and free list information.
+Use Space Bar for shooting.
+Goal: To shoot the asteroids and earn as much points as you can within 1 min.
+The time bar at the left bottom is up for 1 min and reduces gradually till 1 min after which
+Players final score is displayed. 
+Points- Player earns 5 points for destroying normal asteroid.
+Player earns 1 point for destroying smart asteroid.
+Conclusion: The player gets 1 min to shoot asteroids and he earns points when the asteroids 
+are destroyed either by shooting or colliding. The Final score earned by player is the conclusion of the game.
+
+AI- Implemented AI on asteroid. The smart asteroid move away from plane and laser as it approaches them.
+Sound- Incorporated sound for background and shooting.
+Collision detection- Asteroid gets destroyed when laser or plane collides with asteroid.
+After collision the asteriod breaks into chunks.
+God mode- Implemented god mode which gives player unlimited amount of time to shoot the asteroid. 
+In god mode the time bar(health) does not reduce. Press 'g' to get into god mode.
+Object Pool information is displayed in the HUD.
+
+How I made the sprites?
+The background sprite consisting of 3 canvases over each others are made in paint. 
+All three backgrounds are made by me.
+The asteroid, laser and airplane sprite are taken from google images.
+Background and shooting sounds are taken from sample game sounds on internet.
+
