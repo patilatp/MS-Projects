@@ -1,10 +1,6 @@
 Name: Amey Patil
-Clemson Email Address: ameyp@g.clemson.edu
 
-Project no: 6
-Project due date: 4th Dec Noon
-
-Project description: A Playable Game. 
+Project description: Asteroid Shooting Game in C++.
 
 Keys for movement of airplane-
 A- Move Left, S- Move Downwards, D- Move Right, W- Move Upwards.
