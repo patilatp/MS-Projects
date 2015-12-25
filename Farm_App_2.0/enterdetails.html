@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>    
+<head>
+        
+<meta charset="utf-8" />
+        
+<meta name="format-detection" content="telephone=no" />
+        
+<meta name="msapplication-tap-highlight" content="no" />
+        
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, 
+minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<title>Enter Details</title>
+<style>
+        #search-text-input{
+            border-top:thin solid  #555555;
+            border-right:thin solid #555555;
+            border-bottom:0;
+            border-left:thin solid  #555555;
+            box-shadow:0px 1px 1px 1px #555555;
+            float:left;
+            height:17px;
+            margin:.8em 0 0 .5em; 
+            outline:0;
+            padding:.4em 0 .4em .6em; 
+            width:140px; 
+        }
+        #budgetinput{
+            border-top:thin solid  #555555;
+            border-right:thin solid #555555;
+            border-bottom:0;
+            border-left:thin solid  #555555;
+            box-shadow:0px 1px 1px 1px #555555;
+            float:left;
+            height:17px;
+            margin:.8em 0 0 .5em; 
+            outline:0;
+            padding:.4em 0 .4em .6em; 
+            width:140px; 
+            color:#999;
+        }
+        #soiltypecss{
+        height:20px;
+        width:140px; 
+        }
+        #markettypecss{
+        height:20px;
+        width:108px; 
+        }
+  </style>
+
+</head>    
+<body>
+
+<div class="app">
+     <img src = "img/wireframe.jpg" height="500" width="300" style="position: absolute; left: 40%; top: 10%">
+    <img src = "img/titlebar.jpg" height="70" width="275" style="position: absolute; left: 40.8%; top: 11.5%">
+    <a href="index.html"><img src = "img/logo.jpg" height="70" width="60" style="position: absolute; left: 40.8%; top:11.5%"></a>
+    <h2 style="position: absolute; left: 45%; top: 25%">Enter Details</h2>
+    <a href="selectlanguage.html"><img src="img/backarrow.jpg" height="36" width="40" style="position: absolute; left: 41%; top: 27%"></a>
+    <h2 style="position: absolute; left: 41.5%; top: 35%">Location</h2>
+    <input type='text' placeholder='Search...' id='search-text-input' style="position: absolute; left: 49%; top: 36%;"/>
+    <label style="position: absolute; left: 45%; top: 42.5%"><input type="checkbox">Use Current Location</label>
+    <h2 style="position: absolute; left: 41.5%; top: 45%">Soil Type</h2>
+<select style="position: absolute; left: 50%; top: 48.5%" id='soiltypecss'>
+  <option value="Select Soil Type">Select Soil Type</option>
+  <option value="Alluvial soil">Alluvial soil</option>
+  <option value="Black soil">Black soil</option>
+  <option value="Forest & Hill soil">Forest & Hill soil</option>
+  <option value="Lateritic soil">Lateritic soil</option>
+  <option value="Peaty & Marshy soil">Peaty & Marshy soil</option>
+  <option value="Red soil">Red soil</option>
+</select>
+<h2 style="position: absolute; left: 41.5%; top: 54%">Budget</h2>
+<input type='text' placeholder='Enter Budget...' id='budgetinput' style="position: absolute; left: 49%; top: 55%;"/>
+<h2 style="position: absolute; left: 41.5%; top: 62%">Market Place</h2>
+<select style="position: absolute; left: 52.8%; top: 65.2%" id='markettypecss'>
+  <option value="Select Market">Select Market</option>
+  <option value="Market A">Market A</option>
+  <option value="Market B">Market B</option>
+  <option value="Market C">Market C</option>
+  <option value="Market D">Market D</option>
+  <option value="Market E">Market E</option>
+</select>
+<a href="recommendation.html"><input type="button" value="Get Recommendation" style="position: absolute;left: 46%; top: 72%;"/></a>
+</div>
+      
+<script type="text/javascript" src="cordova.js"></script>        
+<script type="text/javascript" src="js/index.js"></script>        
+<script type="text/javascript">            
+app.initialize();        
+</script>
+</body>
+</html>

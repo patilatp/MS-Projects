@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>    
+<head>
+        
+<meta charset="utf-8" />
+        
+<meta name="format-detection" content="telephone=no" />
+        
+<meta name="msapplication-tap-highlight" content="no" />
+        
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, 
+minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+  
+<title>Menu</title>
+<style>
+#monthlist{
+        height:20px;
+        width:60px; 
+        }
+#hashcolor{
+color: red;
+}        
+
+</style>
+
+</head>    
+<body>
+
+<div class="app">
+    <img src = "img/wireframe.jpg" height="500" width="300" style="position: absolute; left: 40%; top: 10%">
+    <img src = "img/titlebar.jpg" height="70" width="275" style="position: absolute; left: 40.8%; top: 11.5%">
+    <a href="index.html"><img src = "img/logo.jpg" height="70" width="60" style="position: absolute; left: 40.8%; top:11.5%"></a>
+    <h2 style="position: absolute; left: 45%; top: 22%">Recommendation</h2>
+    <h4 style="position: absolute; left: 41.5%; top: 27%">XYZ,India|Black Soil|25000|Market A</h4>
+    <h4 style="position: absolute; left: 41.5%; top: 31%">Month:</h4>
+    <h4 style="position: absolute; left: 52%; top: 31%">To</h4>
+  <select style="position: absolute; left: 46%; top: 34%" id='monthlist'>
+  <option value="Nov">Nov</option>
+  <option value="Dec">Dec</option>
+  <option value="Jan">Jan</option>
+  <option value="Feb">Feb</option>
+  <option value="Mar">Mar</option>
+  <option value="Apr">Apr</option>
+</select>
+<select style="position: absolute; left: 55%; top: 34%" id='monthlist'>
+    <option value="Feb">Feb</option>
+  <option value="Mar">Mar</option>
+  <option value="Apr">Apr</option>
+  <option value="May">May</option>
+  <option value="Jun">Jun</option>
+</select>
+<h4 style="position: absolute; left: 41.5%; top: 35%">Forecast:</h4>
+<a href="http://www.accuweather.com/en/in/pune/204848/weather-forecast/204848"><h6 style="position: absolute; left: 46.2%; top: 35%">Click here to get detailed weather forecast</h6></a>
+<table border="2" width="260" height="160" style="position: absolute; left: 41.5%; top: 41.5%">
+<tr width="30" height="40" align="center">
+<td>Ideal Crops</td>
+<td>Average Cultivation Cost (INR/kg)</td>
+<td>Modal Selling Price (INR/kg)*</td>
+<td>Profit (%)</td>
+</tr>
+<tr align="center" >
+<td>Cotton #<br></td>
+<td>21</td>
+<td>40</td>
+<td>90</td>
+</tr>
+<tr align="center">
+<td>Ragi</td>
+<td>10</td>
+<td>17</td>
+<td>82</td>
+</tr>
+<tr align="center">
+<td>Chilli</td>
+<td>45</td>
+<td>80</td>
+<td>77</td>
+</tr>
+<!-- <tr align="center">
+<td>Corn</td>
+<td>89</td>
+<td>145</td>
+<td>64</td>
+</tr>
+<tr align="center">
+<td>Cashew</td>
+<td>449</td>
+<td>700</td>
+<td>56</td>
+</tr>-->
+</table>
+<img src="img/alert.jpg" height="20" width="20" style="position: absolute; left: 41.5%; top: 69.5%">
+<h4 style="position: absolute; left: 43%; top: 67%">Alerts-</h4>
+<h5 style="position: absolute; left: 42%; top: 70%">XYZ,India to get heavy rains in December.</h5>
+<h5 style="position: absolute; left: 42%; top: 75%"># Cash crop- Prone to high price fluctuations.</h5>
+<h5 style="position: absolute; left: 42%; top: 77%">* Modal prices shown are for February.</h5>
+    <!--<img src="img/recommendation.jpg" height="350" width="250" style="position: absolute; left: 42%; top: 30%">-->
+    <a href="recommendation.html"><img src="img/backarrow.jpg" height="36" width="40" style="position: absolute; left: 41%; top: 24%"></a>
+    <a href="insurance.html"><img src="img/insurance.jpg" height="35" width="170" style="position: absolute; left: 48.4%; top: 11.5%"></a>
+    <a href="cropinfo.html"><img src="img/cropinfo.jpg" height="35" width="170" style="position: absolute; left: 48.4%; top: 16.8%"></a>
+    <a href="askanexpert.html"><img src="img/askanexpert.jpg" height="37" width="170" style="position: absolute; left: 48.4%; top: 22.1%"></a>
+    <a href="contactus.html"><img src="img/contactus.jpg" height="35" width="170" style="position: absolute; left: 48.4%; top: 27.4%"></a>
+    <a href="settings.html"><img src="img/settings.jpg" height="35" width="170" style="position: absolute; left: 48.4%; top: 32.7%"></a>
+    <a href="help.html"><img src="img/help.jpg" height="35" width="170" style="position: absolute; left: 48.4%; top: 38%"></a>
+    <img src="img/line.jpg"  style="position: absolute; left: 48.4%; top: 16.7%">
+    <img src="img/line.jpg"  style="position: absolute; left: 48.4%; top: 22%">
+    <img src="img/line.jpg"  style="position: absolute; left: 48.4%; top: 27.3%">
+    <img src="img/line.jpg"  style="position: absolute; left: 48.4%; top: 32.6%">
+    <img src="img/line.jpg"  style="position: absolute; left: 48.4%; top: 37.9%">
+    <img src="img/line.jpg"  style="position: absolute; left: 48.4%; top: 43%">
+</div>
+      
+<script type="text/javascript" src="cordova.js"></script>        
+<script type="text/javascript" src="js/index.js"></script>        
+<script type="text/javascript">            
+app.initialize();        
+</script>
+</body>
+</html>
