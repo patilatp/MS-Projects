@@ -1,0 +1,28 @@
+Name: Amey Patil
+
+Project description: Crop recommendation system.
+
+1. HTML, Javascript based application.
+2. Application caters crop recommendation to farmers. It is a beta version. Below steps indicate what each page of application indicates.
+3. Open index.html in your web browser. It is recommended you use the Chrome browser.
+4. The Application will open on your browser. Click on the plant Logo.
+5. You will be directed to the Language selection page where you can choose your language. (We have implemented only English).
+6. You will be directed to the Details page where you enter your details. You fill the Location (XYZ,India), Soil Type (Black soil), Budget (25000) and Market Place(Market A). After you have entered your information you click on the ‘Get Recommendation’ button.
+7. You will be directed to the Recommendations page where you will be able to see the crop recommendations for 3 crops along with their average cultivation cost in INR/kg, modal selling price in INR/kg and the profit in percentage.
+The months will be selected from November to February by default. You can change the months in both the drop down lists but data will be same in the table.
+The information that you entered on the previous page can be viewed just above the Month drop down so you remember what you had entered earlier. This data has been hardcoded.
+We also give you weather and market alerts just below the table. We also provide information about cash crops and modal prices at the end of the page.
+We provide a weather forecast link just below the Month drop down which takes us to an accuweather page about Pune city, India.
+8. On the top right corner of the page you will be able to see the menu button. On clicking the menu button we will be shown tabs for the other app features.
+You can click on any of the tab to go to that particular page. To go back to the recommendations page you can click on the back button on the top left corner of the page and you will be directed to the recommendations page with the menu button open. You can either click on any other feature in the menu bar or click the back button again to get the recommendations page with the menu bar closed.
+9. On clicking on the Insurance/Loan tab in the menu bar you will be directed to the Insurance and Loan page where you can see the insurance companies by default.
+We have two buttons called ‘Crop Insurance’ and ‘Agriculture Loans’ which direct you to the insurance and loan pages respectively.
+10. On clicking the ‘Crop Information’ tab you will be directed to crop information page which contains crop images along with profit percentage as mentioned in the recommendation page. You can click the crop image to get more/detail information about
+the crop. We have included the information about crop rotation as suggested during presentation.
+11. On clicking the ‘Ask an Expert’ tab you will be directed to the ‘Ask an Expert’ page where you can type out your question, give your personal information and upload pictures (we have not implemented the upload button).
+After you have entered your details you can click on ‘submit Question’ to submit your question.
+You can click on the ‘check solution’ button to check if the expert has given an answer to your question or if you click on ‘Ask Question’ you will be redirected to the Question page.
+12. On clicking ‘Contact Us’ tab you will be directed to contact us page which contains contact information.
+13. On clicking ‘Settings’ tab you will be directed to settings page where user can change settings for Alerts and Language.
+14. On clicking ‘Help’ tab you will be directed to help page which contains information about what the labels in the recommendation table denote to.
+15. The Back button has been implemented on all pages except when you go inside a menu tab

@@ -1,0 +1,142 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Asteroid Shooting Game by Amey Patil</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<adjustmentFactor>1.0</adjustmentFactor>
+<frameMax>200</frameMax>
+
+<username>ameyp</username>
+
+<view>
+  <width>800</width>
+  <height>500</height>
+</view>
+
+<world>
+  <width>1200</width>
+  <height>550</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+<hud>
+<HUD_WIDTH>280</HUD_WIDTH>
+<HUD_HEIGHT>220</HUD_HEIGHT>
+<hudseconds>5</hudseconds>
+</hud>
+
+<back>
+  <file>images/back.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1000</width>
+  <height>560</height>
+  <transparency>false</transparency>
+</back>
+
+<middle>
+  <file>images/middle1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1000</width>
+  <height>560</height>
+  <transparency>false</transparency>
+</middle>
+
+<front>
+  <file>images/front1.12.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1000</width>
+  <height>560</height>
+  <transparency>false</transparency>
+</front>
+
+
+<asteroids>
+  <file>images/asteroid.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <cushion> 0.0 </cushion>
+  <chunk>
+    <size>9</size>
+    <distance>100</distance>
+    <spinAngle>0</spinAngle>
+  </chunk>
+  <scale min = "0.15" max = "2.5"/>
+  <numberOfAsteroids>15</numberOfAsteroids>
+  <src x = "100" y = "100"/>
+  <loc x = "1000" y = "10"/>
+  <width>55</width>
+  <height>58</height>
+  <startLoc x="300" y="300"/>
+  <speed x = "100" y = "50"/>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <yLimit>1000</yLimit>
+  <transparency>true</transparency>
+</asteroids>
+
+<player>
+  <file>images/airplane.png</file>
+  <src x="0" y="0"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>128</width>
+  <height>128</height>
+  <startLoc x="150" y="150"/>
+  <speed x="350" y="250"/>
+  <speedX>350</speedX>
+  <speedY>250</speedY>
+  <laserName>laser</laserName>
+  <laserInterval>200</laserInterval>
+  <minLaserSpeed>200</minLaserSpeed>
+  <transparency>true</transparency>
+</player>
+
+<laser>
+  <file>images/laser.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>30</width>
+  <height>40</height>
+  <maxDistance>500</maxDistance>
+  <spinAngle>0</spinAngle>
+  <startLoc x="0" y="0"/>
+  <speed x="400" y="100"/>
+  <speedX>400</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+</laser>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+
+</GameData>

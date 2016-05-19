@@ -1,0 +1,53 @@
+.file_textbox {
+  top: 10px;
+  height:19.2px;
+  width:200px;
+  float:left;
+}
+
+.file_div {
+  position: relative;
+  top: 0px;
+  width:80px;
+  height:26px;
+  overflow: hidden;
+}
+
+.file_button {
+  width: 80px;
+  height:100px;
+  position:absolute;
+  top:0px;
+  border:1px solid #F0F0EE;
+  padding:2px 8px 2px 8px;
+  font-weight:bold;
+  height:25px;
+  margin:0px;
+  margin-right:5px;
+}
+
+.file_button_hover {
+  width:80px;
+  position:absolute;
+  top:0px;
+  border:1px solid #0A246A;
+  background-color:#B2BBD0;
+  padding:2px 8px 2px 8px;
+  height:25px;
+  margin:0px;
+  font-weight:bold;
+  margin-right:5px;
+}
+
+.file_hidden {
+  font-size:45px;
+  position:absolute;
+  right:0px;
+  top:0px;
+  cursor:pointer;
+  opacity:0;
+  filter:alpha(opacity=0);
+  -ms-filter:"alpha(opacity=0)";
+  -khtml-opacity:0;
+  -moz-opacity:0;
+}

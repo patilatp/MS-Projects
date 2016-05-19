@@ -1,0 +1,125 @@
+a {
+    color: #000000;
+}
+
+.fancy_button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #cc5200;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.fancy_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fancy_button span:after {
+  content: '>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.fancy_button:hover span {
+  padding-right: 25px;
+}
+
+.fancy_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #8c8c8c}
+tr:nth-child(odd) {background-color: #ffffff}
+th {
+    background-color: #cc5200;
+    color: white;
+}
+
+input.search {
+  background-color: #ffffff;
+  border: 2px solid #CCCCCC;
+  border-radius: 8px;
+  font-size: 18px;
+  height: 13px;
+  line-height: 23px;
+  outline: medium none;
+  padding: 8px 12px;
+  width: 196px;
+}
+
+input.search:focus {
+  border: 2px solid #c80000;
+}
+
+b.b_white {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h1.white { 
+  font-size: 30px;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  letter-spacing: -1px; 
+  color: #f2f2f2; 
+  text-transform: none; 
+  text-shadow: 1px 1px 0 #000;
+  margin: 10px 0 24px; 
+  text-align: center; 
+  line-height: 50px;
+}
+
+.white {
+  font-size: 18px;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  letter-spacing: -1px; 
+  color: #f2f2f2; 
+  text-transform: none; 
+  margin: 10px 0 24px; 
+  text-align: center; 
+  line-height: 40px;
+} 
+button.welcome_button {
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent; 
+    color: #f2f2f2; 
+    border: 2px solid #ff3300;
+}
+
+button.welcome_button:hover {
+    background-color: #cc5200;
+    color: white;
+}
+

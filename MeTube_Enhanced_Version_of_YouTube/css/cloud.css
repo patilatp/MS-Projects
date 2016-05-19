@@ -1,0 +1,71 @@
+div.cloud {
+  width: 480px;
+  margin: 5em auto 2.5em;
+}
+div.cloud:first-child {
+  margin-top: 3em;
+}
+.cloud ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cloud ul li {
+  display: inline-block;
+  margin: 0 0 .3em 1em;
+  padding: 0;
+}
+.cloud ul li a {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 1em 0 .75em;
+  background-color: #cc5200;
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.cloud ul li a::before {
+  position: absolute;
+  top: 0;
+  left: -15px;
+  z-index: -1;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-color: #cc5200;
+  border-radius: 50%;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.cloud ul li a::after {
+  position: absolute;
+  top: 50%;
+  left: -6px;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-top: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+.cloud ul li span {
+  display: block;
+  max-width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cloud ul li a:hover {
+  background-color: #993d00;
+  color: #fff;
+}
+.cloud ul li a:hover::before {
+  background-color: #993d00;
+}
